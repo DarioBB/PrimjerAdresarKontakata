@@ -1,0 +1,127 @@
+body {
+	font-family:Arial, Helvetica, Verdana;
+	font-size:11px;
+}
+
+.user_lab {
+	width:90px;
+	float:left;
+	border-right:1px solid #000000;
+	border-bottom:1px solid #000000;
+	background: #ffffff;
+	padding:15px 8px 15px 8px;
+}
+
+.user_val {
+	width:160px;
+	white-space:wrap;
+	float:left;
+	border-right:1px solid #000000;
+	border-bottom:1px solid #000000;
+	background: #ffffff;
+	padding:15px 8px 15px 8px;
+}
+
+.user_val_2 {
+	width:90px;
+	min-height:40px;
+	white-space:wrap;
+	float:left;
+	border-bottom:1px solid #000000;
+	background: #ffffff;
+	padding:15px 8px 15px 8px;
+}
+
+.user_row_2 {
+	height:200px;
+	overflow:auto;
+}
+
+.val_field_3 {
+	min-width:290px;
+	min-height:40px;
+}
+
+#description_label, #description {
+	min-height:60px;
+	border-bottom:none;
+}
+
+.container {
+	display:block;
+	width:100%;
+	float:left;
+	padding:2%;
+	border:1px solid #000000;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+/*.container_2 {
+	padding:0 0 60px 0;
+}*/
+
+.container_2 {
+	display:block;
+	width:100%;
+	float:left;
+	padding:2%;
+	border:1px solid #000000;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+#res_box_top {
+	min-height:300px;
+}
+
+#res_box_bottom {
+	width:100%;
+	padding:30px 0 0 0;
+	border-top:1px solid #000000;
+}
+
+#box_user_texts {
+	float:left;
+}
+
+/*#box_user_image {
+	float:left;
+	padding:0 0 0 4px;
+}
+
+#user_image {
+	float:left;
+}*/
+
+.img_profile {
+	width:40%;
+	float:left;
+	padding:0 0 0 4px;
+}
+
+.clearfix {
+	clear:both;
+}
+
+.display_none {
+	display:none;
+}
+
+/* data tables dodatno: */
+.display {
+	font-size:11px;
+}
+
+th.dpass, td.dpass {
+	display: none;
+}
+th:hover, td:hover {
+	cursor: pointer;
+}

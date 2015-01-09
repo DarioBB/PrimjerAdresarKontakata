@@ -1,0 +1,76 @@
+body {
+	font-family:Arial, helvetica, Verdana;
+	font-size:12px;
+}
+.main {
+	width: 304px;
+	margin: 0 auto;
+}
+form span label {
+	display:block;
+	width:100%;
+}
+form textarea {
+	width:275px;
+	height:70px;
+}
+.form_block {
+	float:left;
+}
+
+.clearfix {
+	clear:both;
+}
+
+.phone_number_block {
+	width:300px;
+	margin:3px 0 0 0;
+	padding:6px 3px 6px 3px;
+	border:4px solid #DBDAD9;
+	background:#DBDAD9 url("../images/x-mark-4-icon-16.png") no-repeat right top;
+}
+
+.spacer {
+	padding:5px 0 5px 0;
+}
+
+form span input.txt_error {
+	border:2px solid #E02626;
+}
+
+.row_block {
+	display:block;
+	width:100%;
+	float:left;
+	background:#E1EAEB;
+	padding:2px 3px 2px 3px;
+}
+.row_item {
+	display:block;
+	width:94px;
+	height:29px;
+	float:left;
+	background:#A7CECF;
+	padding:2px 3px 2px 3px;
+}
+.row_edit {
+	display:block;
+	width:auto;
+	float:left;
+	padding:2px 3px 2px 3px;
+}
+.edit_extra {
+	padding-right:3px;
+}
+
+.img_holder {
+	width:168px;
+	border:4px solid #DBDAD9;
+	background: #DBDAD9 url("../images/x-mark-4-icon-16.png") no-repeat right top;
+}
+.delete_related_item {
+	float:right;
+	margin:-4px 0 0 0;
+	width:12px;
+	height:12px;
+}
